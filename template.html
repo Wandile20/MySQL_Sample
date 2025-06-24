@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TeraBook</title>
+  <link rel="stylesheet" href="template2.css" />
+  <!-- You can add icons and fonts here -->
+</head>
+<body>
+
+  <!-- Header with logo and auth buttons -->
+  <header>
+    <div class="container">
+      <h1 class="logo">TeraBook</h1>
+      <nav>
+        <button class="btn">Sign In</button>
+        <button class="btn">Register</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Search section for location and filters -->
+  <section class="search-bar">
+    <form>
+      <input type="text" placeholder="Where are you going?" name="location" required />
+      <input type="date" name="checkin" />
+      <input type="date" name="checkout" />
+      <input type="number" name="guests" min="1" placeholder="Guests" />
+      <button type="submit" class="btn">Search</button>
+    </form>
+  </section>
+
+  <!-- Main listings section -->
+  <main>
+    <section class="listing-results">
+      <h2>Available Places</h2>
+
+      <!-- Single listing -->
+      <div class="listing-card">
+        <img src="C:\BCom Information System\FINAL IS PROJECT 2025\CSS\Ambelwood.jpg" alt="Main image" />
+        <img src="C:\BCom Information System\FINAL IS PROJECT 2025\CSS\Cape Town guesthouse.jpg" alt="Additional image" />
+        <img src="C:\BCom Information System\FINAL IS PROJECT 2025\CSS\Mountain View.jpg" alt="Additional image" />
+        <img src="C:\BCom Information System\FINAL IS PROJECT 2025\CSS\Sunninghill.jpg" alt="Additional image" />
+        <div class="listing-info">
+          <h3>Luxury Apartment in Sandton</h3>
+          <p>Location: Johannesburg, South Africa</p>
+          <p>Price: R1,200 per night</p>
+          <p>Rating: ⭐ 4.5 (120 reviews)</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Repeat for more listings -->
+      <div class="listing-card">
+        <img src="https://via.placeholder.com/200" alt="Place image" />
+        <div class="listing-info">
+          <h3>Cozy Studio Near Beach</h3>
+          <p>Location: Cape Town</p>
+          <p>Price: R950 per night</p>
+          <p>Rating: ⭐ 4.2 (80 reviews)</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SmartBooking. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
